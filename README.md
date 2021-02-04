@@ -23,7 +23,7 @@ DB設計について
 | name             | string     | null: false                    |
 | explanation      | text       | null: false                    |
 | category_id      | integer    | null: false                    |
-| time_id        | integer    | null: false                    |
+| time_id          | integer    | null: false                    |
 | user_id          | integer    | null: false, foreign_key: true |
 
 ### Association
